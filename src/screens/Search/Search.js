@@ -16,9 +16,13 @@ class SearchScreen extends Component {
         animated: true,
         animationType: 'fade',
         title: "Danh sách Bác sĩ",
-        // navigatorStyle: {
-        //     tabBarHidden: true
-        // }
+        navigatorStyle: {
+            //tabBarHidden: true,
+            navBarBackgroundColor: '#67c9e0',
+            navBarTextColor:'#fff',
+            navBarButtonColor: '#fff',
+            navBarTitleTextCentered: true
+        }
     });
   }
     render(){
