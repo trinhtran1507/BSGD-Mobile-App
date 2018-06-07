@@ -1,12 +1,13 @@
 -- Merging decision tree log ---
 manifest
-ADDED from F:\Project\VNPT_Project\BSGD_App\android\app\src\main\AndroidManifest.xml:1:1-26:12
-INJECTED from F:\Project\VNPT_Project\BSGD_App\android\app\src\main\AndroidManifest.xml:1:1-26:12
-INJECTED from F:\Project\VNPT_Project\BSGD_App\android\app\src\main\AndroidManifest.xml:1:1-26:12
-INJECTED from F:\Project\VNPT_Project\BSGD_App\android\app\src\main\AndroidManifest.xml:1:1-26:12
-MERGED from [:react-native-navigation] F:\Project\VNPT_Project\BSGD_App\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-20:12
-MERGED from [:react-native-vector-icons] F:\Project\VNPT_Project\BSGD_App\node_modules\react-native-vector-icons\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-11:12
-MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\misst\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\25b06906c2db5b718035a9ac00136eed\AndroidManifest.xml:2:1-15:12
+ADDED from F:\Project\VNPT_Project\BSGD-Mobile-App\android\app\src\main\AndroidManifest.xml:1:1-26:12
+INJECTED from F:\Project\VNPT_Project\BSGD-Mobile-App\android\app\src\main\AndroidManifest.xml:1:1-26:12
+INJECTED from F:\Project\VNPT_Project\BSGD-Mobile-App\android\app\src\main\AndroidManifest.xml:1:1-26:12
+INJECTED from F:\Project\VNPT_Project\BSGD-Mobile-App\android\app\src\main\AndroidManifest.xml:1:1-26:12
+MERGED from [:react-native-picker] F:\Project\VNPT_Project\BSGD-Mobile-App\node_modules\react-native-picker\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-13:12
+MERGED from [:react-native-navigation] F:\Project\VNPT_Project\BSGD-Mobile-App\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-20:12
+MERGED from [:react-native-vector-icons] F:\Project\VNPT_Project\BSGD-Mobile-App\node_modules\react-native-vector-icons\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\misst\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\01d408ed286db6065460f789ae879948\AndroidManifest.xml:2:1-15:12
 MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] C:\Users\misst\.gradle\caches\transforms-1\files-1.1\material-menu-toolbar-1.5.4.aar\60d58a0a13370a5bd011779880208baa\AndroidManifest.xml:2:1-14:12
 MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] C:\Users\misst\.gradle\caches\transforms-1\files-1.1\ahbottomnavigation-2.0.6.aar\1e3b405785e6cac1a14b79d564b4769b\AndroidManifest.xml:2:1-13:12
 MERGED from [com.android.support:design:25.3.1] C:\Users\misst\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\6a2f58db971f34fe8d81bd9b2bb70c26\AndroidManifest.xml:17:1-31:12
@@ -31,39 +32,41 @@ MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\misst\.gr
 MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\misst\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\472aca08c179ee9069ce9e1131a2ce39\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\misst\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\432ea5da88387bcda745a62e16be9d89\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:25.3.1] C:\Users\misst\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\a24abe99350d8ef306775872962c1e07\AndroidManifest.xml:17:1-31:12
-INJECTED from F:\Project\VNPT_Project\BSGD_App\android\app\src\main\AndroidManifest.xml:1:1-26:12
-INJECTED from F:\Project\VNPT_Project\BSGD_App\android\app\src\main\AndroidManifest.xml:1:1-26:12
-INJECTED from F:\Project\VNPT_Project\BSGD_App\android\app\src\main\AndroidManifest.xml:1:1-26:12
+INJECTED from F:\Project\VNPT_Project\BSGD-Mobile-App\android\app\src\main\AndroidManifest.xml:1:1-26:12
+INJECTED from F:\Project\VNPT_Project\BSGD-Mobile-App\android\app\src\main\AndroidManifest.xml:1:1-26:12
+INJECTED from F:\Project\VNPT_Project\BSGD-Mobile-App\android\app\src\main\AndroidManifest.xml:1:1-26:12
 	package
-		ADDED from F:\Project\VNPT_Project\BSGD_App\android\app\src\main\AndroidManifest.xml:2:5-23
-		INJECTED from F:\Project\VNPT_Project\BSGD_App\android\app\src\main\AndroidManifest.xml
-		INJECTED from F:\Project\VNPT_Project\BSGD_App\android\app\src\main\AndroidManifest.xml
+		ADDED from F:\Project\VNPT_Project\BSGD-Mobile-App\android\app\src\main\AndroidManifest.xml:2:5-23
+		INJECTED from F:\Project\VNPT_Project\BSGD-Mobile-App\android\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Project\VNPT_Project\BSGD-Mobile-App\android\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from F:\Project\VNPT_Project\BSGD_App\android\app\src\main\AndroidManifest.xml
-		ADDED from F:\Project\VNPT_Project\BSGD_App\android\app\src\main\AndroidManifest.xml:1:1-26:12
-		INJECTED from F:\Project\VNPT_Project\BSGD_App\android\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Project\VNPT_Project\BSGD-Mobile-App\android\app\src\main\AndroidManifest.xml
+		ADDED from F:\Project\VNPT_Project\BSGD-Mobile-App\android\app\src\main\AndroidManifest.xml:1:1-26:12
+		INJECTED from F:\Project\VNPT_Project\BSGD-Mobile-App\android\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from F:\Project\VNPT_Project\BSGD_App\android\app\src\main\AndroidManifest.xml
-		ADDED from F:\Project\VNPT_Project\BSGD_App\android\app\src\main\AndroidManifest.xml:1:1-26:12
-		INJECTED from F:\Project\VNPT_Project\BSGD_App\android\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Project\VNPT_Project\BSGD-Mobile-App\android\app\src\main\AndroidManifest.xml
+		ADDED from F:\Project\VNPT_Project\BSGD-Mobile-App\android\app\src\main\AndroidManifest.xml:1:1-26:12
+		INJECTED from F:\Project\VNPT_Project\BSGD-Mobile-App\android\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from F:\Project\VNPT_Project\BSGD_App\android\app\src\main\AndroidManifest.xml:1:11-69
+		ADDED from F:\Project\VNPT_Project\BSGD-Mobile-App\android\app\src\main\AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
-ADDED from F:\Project\VNPT_Project\BSGD_App\android\app\src\main\AndroidManifest.xml:4:5-67
+ADDED from F:\Project\VNPT_Project\BSGD-Mobile-App\android\app\src\main\AndroidManifest.xml:4:5-67
 	android:name
-		ADDED from F:\Project\VNPT_Project\BSGD_App\android\app\src\main\AndroidManifest.xml:4:22-64
+		ADDED from F:\Project\VNPT_Project\BSGD-Mobile-App\android\app\src\main\AndroidManifest.xml:4:22-64
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
-ADDED from F:\Project\VNPT_Project\BSGD_App\android\app\src\main\AndroidManifest.xml:5:5-77
-MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\misst\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\25b06906c2db5b718035a9ac00136eed\AndroidManifest.xml:11:5-78
-MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\misst\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\25b06906c2db5b718035a9ac00136eed\AndroidManifest.xml:11:5-78
+ADDED from F:\Project\VNPT_Project\BSGD-Mobile-App\android\app\src\main\AndroidManifest.xml:5:5-77
+MERGED from [:react-native-picker] F:\Project\VNPT_Project\BSGD-Mobile-App\node_modules\react-native-picker\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-78
+MERGED from [:react-native-picker] F:\Project\VNPT_Project\BSGD-Mobile-App\node_modules\react-native-picker\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\misst\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\01d408ed286db6065460f789ae879948\AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\misst\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\01d408ed286db6065460f789ae879948\AndroidManifest.xml:11:5-78
 	android:name
-		ADDED from F:\Project\VNPT_Project\BSGD_App\android\app\src\main\AndroidManifest.xml:5:22-75
+		ADDED from F:\Project\VNPT_Project\BSGD-Mobile-App\android\app\src\main\AndroidManifest.xml:5:22-75
 application
-ADDED from F:\Project\VNPT_Project\BSGD_App\android\app\src\main\AndroidManifest.xml:7:5-24:19
-MERGED from [:react-native-navigation] F:\Project\VNPT_Project\BSGD_App\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-18:19
-MERGED from [:react-native-navigation] F:\Project\VNPT_Project\BSGD_App\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-18:19
-MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\misst\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\25b06906c2db5b718035a9ac00136eed\AndroidManifest.xml:13:5-20
-MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\misst\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\25b06906c2db5b718035a9ac00136eed\AndroidManifest.xml:13:5-20
+ADDED from F:\Project\VNPT_Project\BSGD-Mobile-App\android\app\src\main\AndroidManifest.xml:7:5-24:19
+MERGED from [:react-native-navigation] F:\Project\VNPT_Project\BSGD-Mobile-App\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-18:19
+MERGED from [:react-native-navigation] F:\Project\VNPT_Project\BSGD-Mobile-App\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-18:19
+MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\misst\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\01d408ed286db6065460f789ae879948\AndroidManifest.xml:13:5-20
+MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\misst\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\01d408ed286db6065460f789ae879948\AndroidManifest.xml:13:5-20
 MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] C:\Users\misst\.gradle\caches\transforms-1\files-1.1\material-menu-toolbar-1.5.4.aar\60d58a0a13370a5bd011779880208baa\AndroidManifest.xml:12:5-20
 MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] C:\Users\misst\.gradle\caches\transforms-1\files-1.1\material-menu-toolbar-1.5.4.aar\60d58a0a13370a5bd011779880208baa\AndroidManifest.xml:12:5-20
 MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] C:\Users\misst\.gradle\caches\transforms-1\files-1.1\ahbottomnavigation-2.0.6.aar\1e3b405785e6cac1a14b79d564b4769b\AndroidManifest.xml:11:5-20
@@ -97,53 +100,55 @@ MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\misst\.gradle\
 MERGED from [com.android.support:support-compat:25.3.1] C:\Users\misst\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\a24abe99350d8ef306775872962c1e07\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-compat:25.3.1] C:\Users\misst\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\a24abe99350d8ef306775872962c1e07\AndroidManifest.xml:29:5-20
 	android:label
-		ADDED from F:\Project\VNPT_Project\BSGD_App\android\app\src\main\AndroidManifest.xml:9:7-39
+		ADDED from F:\Project\VNPT_Project\BSGD-Mobile-App\android\app\src\main\AndroidManifest.xml:9:7-39
 	android:icon
-		ADDED from F:\Project\VNPT_Project\BSGD_App\android\app\src\main\AndroidManifest.xml:10:7-41
+		ADDED from F:\Project\VNPT_Project\BSGD-Mobile-App\android\app\src\main\AndroidManifest.xml:10:7-41
 	android:allowBackup
-		ADDED from F:\Project\VNPT_Project\BSGD_App\android\app\src\main\AndroidManifest.xml:11:7-34
+		ADDED from F:\Project\VNPT_Project\BSGD-Mobile-App\android\app\src\main\AndroidManifest.xml:11:7-34
 	android:theme
-		ADDED from F:\Project\VNPT_Project\BSGD_App\android\app\src\main\AndroidManifest.xml:12:7-38
+		ADDED from F:\Project\VNPT_Project\BSGD-Mobile-App\android\app\src\main\AndroidManifest.xml:12:7-38
 	android:name
-		ADDED from F:\Project\VNPT_Project\BSGD_App\android\app\src\main\AndroidManifest.xml:8:7-38
+		ADDED from F:\Project\VNPT_Project\BSGD-Mobile-App\android\app\src\main\AndroidManifest.xml:8:7-38
 activity#com.bsgd.MainActivity
-ADDED from F:\Project\VNPT_Project\BSGD_App\android\app\src\main\AndroidManifest.xml:13:7-22:18
+ADDED from F:\Project\VNPT_Project\BSGD-Mobile-App\android\app\src\main\AndroidManifest.xml:13:7-22:18
 	android:label
-		ADDED from F:\Project\VNPT_Project\BSGD_App\android\app\src\main\AndroidManifest.xml:15:9-41
+		ADDED from F:\Project\VNPT_Project\BSGD-Mobile-App\android\app\src\main\AndroidManifest.xml:15:9-41
 	android:windowSoftInputMode
-		ADDED from F:\Project\VNPT_Project\BSGD_App\android\app\src\main\AndroidManifest.xml:17:9-51
+		ADDED from F:\Project\VNPT_Project\BSGD-Mobile-App\android\app\src\main\AndroidManifest.xml:17:9-51
 	android:configChanges
-		ADDED from F:\Project\VNPT_Project\BSGD_App\android\app\src\main\AndroidManifest.xml:16:9-79
+		ADDED from F:\Project\VNPT_Project\BSGD-Mobile-App\android\app\src\main\AndroidManifest.xml:16:9-79
 	android:name
-		ADDED from F:\Project\VNPT_Project\BSGD_App\android\app\src\main\AndroidManifest.xml:14:9-37
+		ADDED from F:\Project\VNPT_Project\BSGD-Mobile-App\android\app\src\main\AndroidManifest.xml:14:9-37
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from F:\Project\VNPT_Project\BSGD_App\android\app\src\main\AndroidManifest.xml:18:9-21:25
+ADDED from F:\Project\VNPT_Project\BSGD-Mobile-App\android\app\src\main\AndroidManifest.xml:18:9-21:25
 action#android.intent.action.MAIN
-ADDED from F:\Project\VNPT_Project\BSGD_App\android\app\src\main\AndroidManifest.xml:19:13-65
+ADDED from F:\Project\VNPT_Project\BSGD-Mobile-App\android\app\src\main\AndroidManifest.xml:19:13-65
 	android:name
-		ADDED from F:\Project\VNPT_Project\BSGD_App\android\app\src\main\AndroidManifest.xml:19:21-62
+		ADDED from F:\Project\VNPT_Project\BSGD-Mobile-App\android\app\src\main\AndroidManifest.xml:19:21-62
 category#android.intent.category.LAUNCHER
-ADDED from F:\Project\VNPT_Project\BSGD_App\android\app\src\main\AndroidManifest.xml:20:13-73
+ADDED from F:\Project\VNPT_Project\BSGD-Mobile-App\android\app\src\main\AndroidManifest.xml:20:13-73
 	android:name
-		ADDED from F:\Project\VNPT_Project\BSGD_App\android\app\src\main\AndroidManifest.xml:20:23-70
+		ADDED from F:\Project\VNPT_Project\BSGD-Mobile-App\android\app\src\main\AndroidManifest.xml:20:23-70
 activity#com.facebook.react.devsupport.DevSettingsActivity
-ADDED from F:\Project\VNPT_Project\BSGD_App\android\app\src\main\AndroidManifest.xml:23:7-84
-MERGED from [:react-native-navigation] F:\Project\VNPT_Project\BSGD_App\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:9-17:40
-MERGED from [:react-native-navigation] F:\Project\VNPT_Project\BSGD_App\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:9-17:40
+ADDED from F:\Project\VNPT_Project\BSGD-Mobile-App\android\app\src\main\AndroidManifest.xml:23:7-84
+MERGED from [:react-native-navigation] F:\Project\VNPT_Project\BSGD-Mobile-App\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:9-17:40
+MERGED from [:react-native-navigation] F:\Project\VNPT_Project\BSGD-Mobile-App\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:9-17:40
 	android:exported
-		ADDED from [:react-native-navigation] F:\Project\VNPT_Project\BSGD_App\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:17:13-37
+		ADDED from [:react-native-navigation] F:\Project\VNPT_Project\BSGD-Mobile-App\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:17:13-37
 	android:name
-		ADDED from F:\Project\VNPT_Project\BSGD_App\android\app\src\main\AndroidManifest.xml:23:17-81
+		ADDED from F:\Project\VNPT_Project\BSGD-Mobile-App\android\app\src\main\AndroidManifest.xml:23:17-81
 uses-sdk
-INJECTED from F:\Project\VNPT_Project\BSGD_App\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from F:\Project\VNPT_Project\BSGD_App\android\app\src\main\AndroidManifest.xml
-INJECTED from F:\Project\VNPT_Project\BSGD_App\android\app\src\main\AndroidManifest.xml
-MERGED from [:react-native-navigation] F:\Project\VNPT_Project\BSGD_App\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-navigation] F:\Project\VNPT_Project\BSGD_App\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-vector-icons] F:\Project\VNPT_Project\BSGD_App\node_modules\react-native-vector-icons\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-vector-icons] F:\Project\VNPT_Project\BSGD_App\node_modules\react-native-vector-icons\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\misst\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\25b06906c2db5b718035a9ac00136eed\AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\misst\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\25b06906c2db5b718035a9ac00136eed\AndroidManifest.xml:7:5-9:41
+INJECTED from F:\Project\VNPT_Project\BSGD-Mobile-App\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from F:\Project\VNPT_Project\BSGD-Mobile-App\android\app\src\main\AndroidManifest.xml
+INJECTED from F:\Project\VNPT_Project\BSGD-Mobile-App\android\app\src\main\AndroidManifest.xml
+MERGED from [:react-native-picker] F:\Project\VNPT_Project\BSGD-Mobile-App\node_modules\react-native-picker\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-picker] F:\Project\VNPT_Project\BSGD-Mobile-App\node_modules\react-native-picker\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-navigation] F:\Project\VNPT_Project\BSGD-Mobile-App\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-navigation] F:\Project\VNPT_Project\BSGD-Mobile-App\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] F:\Project\VNPT_Project\BSGD-Mobile-App\node_modules\react-native-vector-icons\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] F:\Project\VNPT_Project\BSGD-Mobile-App\node_modules\react-native-vector-icons\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\misst\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\01d408ed286db6065460f789ae879948\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.55.4] C:\Users\misst\.gradle\caches\transforms-1\files-1.1\react-native-0.55.4.aar\01d408ed286db6065460f789ae879948\AndroidManifest.xml:7:5-9:41
 MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] C:\Users\misst\.gradle\caches\transforms-1\files-1.1\material-menu-toolbar-1.5.4.aar\60d58a0a13370a5bd011779880208baa\AndroidManifest.xml:8:5-10:41
 MERGED from [com.balysv.materialmenu:material-menu-toolbar:1.5.4] C:\Users\misst\.gradle\caches\transforms-1\files-1.1\material-menu-toolbar-1.5.4.aar\60d58a0a13370a5bd011779880208baa\AndroidManifest.xml:8:5-10:41
 MERGED from [com.aurelhubert:ahbottomnavigation:2.0.6] C:\Users\misst\.gradle\caches\transforms-1\files-1.1\ahbottomnavigation-2.0.6.aar\1e3b405785e6cac1a14b79d564b4769b\AndroidManifest.xml:7:5-9:41
@@ -190,24 +195,24 @@ MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\misst\.gradle\
 MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\misst\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\432ea5da88387bcda745a62e16be9d89\AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-compat:25.3.1] C:\Users\misst\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\a24abe99350d8ef306775872962c1e07\AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-compat:25.3.1] C:\Users\misst\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\a24abe99350d8ef306775872962c1e07\AndroidManifest.xml:21:5-23:58
-INJECTED from F:\Project\VNPT_Project\BSGD_App\android\app\src\main\AndroidManifest.xml
-INJECTED from F:\Project\VNPT_Project\BSGD_App\android\app\src\main\AndroidManifest.xml
+INJECTED from F:\Project\VNPT_Project\BSGD-Mobile-App\android\app\src\main\AndroidManifest.xml
+INJECTED from F:\Project\VNPT_Project\BSGD-Mobile-App\android\app\src\main\AndroidManifest.xml
 	tools:overrideLibrary
 		ADDED from [com.android.support:design:25.3.1] C:\Users\misst\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\6a2f58db971f34fe8d81bd9b2bb70c26\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		INJECTED from F:\Project\VNPT_Project\BSGD_App\android\app\src\main\AndroidManifest.xml
-		ADDED from F:\Project\VNPT_Project\BSGD_App\android\app\src\main\AndroidManifest.xml
-		INJECTED from F:\Project\VNPT_Project\BSGD_App\android\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Project\VNPT_Project\BSGD-Mobile-App\android\app\src\main\AndroidManifest.xml
+		ADDED from F:\Project\VNPT_Project\BSGD-Mobile-App\android\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Project\VNPT_Project\BSGD-Mobile-App\android\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from F:\Project\VNPT_Project\BSGD_App\android\app\src\main\AndroidManifest.xml
-		ADDED from F:\Project\VNPT_Project\BSGD_App\android\app\src\main\AndroidManifest.xml
-		INJECTED from F:\Project\VNPT_Project\BSGD_App\android\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Project\VNPT_Project\BSGD-Mobile-App\android\app\src\main\AndroidManifest.xml
+		ADDED from F:\Project\VNPT_Project\BSGD-Mobile-App\android\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Project\VNPT_Project\BSGD-Mobile-App\android\app\src\main\AndroidManifest.xml
 activity#com.reactnativenavigation.controllers.NavigationActivity
-ADDED from [:react-native-navigation] F:\Project\VNPT_Project\BSGD_App\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:12:9-14:86
+ADDED from [:react-native-navigation] F:\Project\VNPT_Project\BSGD-Mobile-App\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:12:9-14:86
 	android:configChanges
-		ADDED from [:react-native-navigation] F:\Project\VNPT_Project\BSGD_App\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:13-83
+		ADDED from [:react-native-navigation] F:\Project\VNPT_Project\BSGD-Mobile-App\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:13-83
 	android:name
-		ADDED from [:react-native-navigation] F:\Project\VNPT_Project\BSGD_App\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:13:13-84
+		ADDED from [:react-native-navigation] F:\Project\VNPT_Project\BSGD-Mobile-App\node_modules\react-native-navigation\android\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:13:13-84
 meta-data#android.support.VERSION
 ADDED from [com.android.support:design:25.3.1] C:\Users\misst\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\6a2f58db971f34fe8d81bd9b2bb70c26\AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\misst\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\b0c31fc24d6e6fdaf50ed2ecb3a9be61\AndroidManifest.xml:25:5-27:34
@@ -237,8 +242,8 @@ MERGED from [com.android.support:support-compat:25.3.1] C:\Users\misst\.gradle\c
 	android:name
 		ADDED from [com.android.support:design:25.3.1] C:\Users\misst\.gradle\caches\transforms-1\files-1.1\design-25.3.1.aar\6a2f58db971f34fe8d81bd9b2bb70c26\AndroidManifest.xml:26:9-47
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-IMPLIED from F:\Project\VNPT_Project\BSGD_App\android\app\src\main\AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+IMPLIED from F:\Project\VNPT_Project\BSGD-Mobile-App\android\app\src\main\AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
 uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from F:\Project\VNPT_Project\BSGD_App\android\app\src\main\AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+IMPLIED from F:\Project\VNPT_Project\BSGD-Mobile-App\android\app\src\main\AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from F:\Project\VNPT_Project\BSGD_App\android\app\src\main\AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE
+IMPLIED from F:\Project\VNPT_Project\BSGD-Mobile-App\android\app\src\main\AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE

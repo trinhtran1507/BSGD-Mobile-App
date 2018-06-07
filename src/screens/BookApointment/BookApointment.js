@@ -7,20 +7,18 @@ import {
     TouchableOpacity,
     Dimensions,
     TextInput,
-    Picker,
     Platform
 } from "react-native";
 import { connect } from "react-redux";
 import { Calendar, CalendarList, Agenda, Arrow } from "react-native-calendars";
 import { LocaleConfig } from "react-native-calendars";
 import Icon from "react-native-vector-icons/Ionicons";
-import { Toast, Root } from "native-base";
-import { Button } from "react-native-elements";
+import { Button, Avatar } from "react-native-elements";
+import { Toast, Root,Picker,Form} from "native-base";
 import { Col, Row, Grid } from "react-native-easy-grid";
 class BookApointmentScreen extends Component {
     constructor(props) {
         super(props);
-        this.props.navigator.setOnNavigatorEvent(this.onNavigatorEvent);
         LocaleConfig.locales["vn"] = {
             monthNames: [
                 "Tháng 1",
@@ -63,35 +61,54 @@ class BookApointmentScreen extends Component {
         };
         LocaleConfig.defaultLocale = "vn";
         this.state = {
-            currentPosition: 0
+            currentPosition: 0,
+            selected: undefined
         };
-        //   this.props.navigator.setButtons({
-        //     rightButtons: [
-        //         {
-        //             title: 'ĐĂNG KÝ',
-        //             buttonColor:'#fff',
-        //             buttonFontWeight: '600'
-        //         }
-        //     ]
-        //   });
+    }
+    onValueChange(value) {
+        this.setState({
+          selected: value
+        });
     }
     onDayPress = day => {
-        //alert(JSON.stringify(day))
-        this.setState({
-            selected: day.dateString
-        });
+        //alert("Hello");
+        this.props.navigator.push({
+            title:'THÔNG TIN ĐĂNG KÝ',
+            screen: "BSGD.BookApointmentInfoScreen",
+            animationType: "fade", // 'none' / 'slide-up' , appear animation for the modal (optional, default 'slide-up')
+            navigatorStyle: {
+              navBarBackgroundColor: "#fff",
+              navBarTextColor: "#000",
+              navBarButtonColor: "#000",
+              navBarTitleTextCentered: true,
+              tabBarHidden: true,
+              //navBarHidden: true
+            }
+          });
     };
     onDangKyPress = () => {
-        Toast.show({
-            text: "Đăng ký khám bệnh thành công!",
-            position: "bottom",
-            type: "success"
-            //buttonText:"Okay",
-            //duration:5000,
-            // onClose: ()=> {
-            //     alert ('OK');
-            // }
-        });
+        // Toast.show({
+        //     text: "Đăng ký khám bệnh thành công!",
+        //     position: "bottom",
+        //     type: "success"
+        //     //buttonText:"Okay",
+        //     //duration:5000,
+        //     // onClose: ()=> {
+        //     //     alert ('OK');
+        //     // }
+        // });
+        this.props.navigator.push({
+            title:'ĐĂNG KÝ KHÁM BỆNH',
+            screen: "BSGD.BookApointmentInfoScreen",
+            animationType: "fade", // 'none' / 'slide-up' , appear animation for the modal (optional, default 'slide-up')
+            navigatorStyle: {
+              navBarBackgroundColor: "#fff",
+              navBarTextColor: "#fff",
+              navBarButtonColor: "#000",
+              navBarTitleTextCentered: true
+              //navBarHidden: true
+            }
+          });
     };
     OnBackPress = () => {
         this.props.navigator.pop({
@@ -103,8 +120,24 @@ class BookApointmentScreen extends Component {
         return (
             <Root>
                 <ScrollView>
+                    <View>
+                        <View style = {{justifyContent:'space-between', padding:10,alignItems:'center'}}>
+                            <Avatar
+                                large
+                                rounded
+                                source={{uri: "https://s3.amazonaws.com/uifaces/faces/twitter/ladylexy/128.jpg"}}
+                                onPress={() => console.log("Works!")}
+                                activeOpacity={0.7}
+                            />
+                        </View>
+                            
+                        <View style = {{justifyContent:'space-between', padding:10,alignItems:'center'}}>
+                            <Text>Lịch làm việc của</Text>
+                            <Text>Ths.Nguyễn Thị Diệu Anh</Text>
+                        </View>
+                    </View>
                     <View style={styles.container}>
-                        <Calendar
+                        <CalendarList
                             onDayPress={this.onDayPress}
                             markedDates={{
                                 "2018-06-24": {
@@ -140,62 +173,25 @@ class BookApointmentScreen extends Component {
                             style={styles.calendar}
                             monthFormat={"MMMM - yyyy"}
                             hideExtraDays
-                        />
+                            horizontal={true}                    
+                         />
                     </View>
-                    <View style={{ padding: 10 ,backgroundColor:'transparent'}}>
-                            <View>
-                                <Text style={styles.textHeader}>
-                                    Thông tin đăng ký khám bệnh
-                                </Text>
-                            </View>
-                            <View style={styles.picker}>
-                                <Picker
-                                    selectedValue={this.state.language}
-                                    mode="dropdown"
-                                    style={{ width: "100%" }}
-                                    onValueChange={(itemValue, itemIndex) =>
-                                        this.setState({ language: itemValue })
-                                    }
-                                >
-                                    <Picker.Item label="08:30" value="0" />
-                                    <Picker.Item label="09:00" value="1" />
-                                    <Picker.Item label="09:30" value="2" />
-                                    <Picker.Item label="10:00" value="3" />
-                                    <Picker.Item label="10:30" value="4" />
-                                    <Picker.Item label="11:00" value="5" />
-                                </Picker>
-                            </View>
-                            <View style={{ marginBottom: 20 }}>
-                                <TextInput
-                                    placeholder="Họ tên"
-                                    underlineColorAndroid="transparent"
-                                    placeholderTextColor="#53565c"
-                                    style={styles.input}
-                                />
-                                <TextInput
-                                    placeholder="Số điện thoại"
-                                    underlineColorAndroid="transparent"
-                                    placeholderTextColor="#53565c"
-                                    style={styles.input}
-                                />
-                            </View>
-                            <View>
-                                <Button
-                                    title="ĐĂNG KÝ KHÁM"
-                                    color="#fff"
-                                    backgroundColor="#67c9e0"
-                                    borderRadius={6}
-                                    containerViewStyle={{
-                                        marginLeft: null,
-                                        marginRight: null
-                                    }}
-                                    fontWeight="bold"
-                                    fontSize={16}
-                                    onPress = {this.onDangKyPress}
-                                />
-                            </View>
-                        </View>
                 </ScrollView>
+                {/* <View style={{position:'absolute', bottom:0,padding:10,backgroundColor:'transparent',left:0,right:0}}>
+                    <Button
+                        title="ĐĂNG KÝ KHÁM"
+                        color="#fff"
+                        backgroundColor="#67c9e0"
+                        borderRadius={10}
+                        containerViewStyle={{
+                            marginLeft: null,
+                            marginRight: null
+                        }}
+                        fontWeight="bold"
+                        fontSize={16}
+                        onPress = {this.onDangKyPress}
+                    />
+                </View> */}
             </Root>
         );
     }
@@ -208,9 +204,11 @@ class BookApointmentScreen extends Component {
 // };
 
 export default BookApointmentScreen;
+
 const styles = StyleSheet.create({
     calendar: {
-        padding: 5
+        padding: 0,
+        marginBottom: 0,
     },
     container: {
         flex: 1,

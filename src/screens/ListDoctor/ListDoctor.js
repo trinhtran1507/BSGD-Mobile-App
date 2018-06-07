@@ -17,19 +17,22 @@ var widthGrid =
   Dimensions.get("window").width - Dimensions.get("window").width * 0.99;
 var widthContent =
   Dimensions.get("window").width - Dimensions.get("window").width * 0.99;
-class SearchScreen extends Component {
+class ListDoctorScreen extends Component {
   constructor(props) {
     super(props);
   }
   onPress = () => {
     this.props.navigator.push({
+      title:'ĐĂNG KÝ KHÁM BỆNH',
       screen: "BSGD.BookApointmentScreen",
       animationType: "fade", // 'none' / 'slide-up' , appear animation for the modal (optional, default 'slide-up')
       navigatorStyle: {
         navBarBackgroundColor: "#fff",
-        navBarTextColor: "#fff",
+        navBarTextColor: "#000",
         navBarButtonColor: "#000",
-        navBarTitleTextCentered: true
+        navBarTitleTextCentered: true,
+        tabBarHidden: true,
+        //navBarHidden: true
       }
     });
   };
@@ -250,4 +253,4 @@ const styles = StyleSheet.create({
   }
 });
 
-export default SearchScreen;
+export default ListDoctorScreen;

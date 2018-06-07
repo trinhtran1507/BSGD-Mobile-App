@@ -10,7 +10,8 @@ import SideDrawer from './src/screens/SideDrawer/SideDrawer';
 import HomePage from './src/screens/Homepage/HomePage';
 import startMainTabs from "./src/screens/MainTabs/startMainTabs";
 import SearchScreen from "./src/screens/Search/Search";
-import ListDoctor from "./src/screens/ListDoctor/ListDoctor";
+import ListDoctorScreen from "./src/screens/ListDoctor/ListDoctor";
+import BookApointmentInfoScreen from "./src/screens/BookApointmentInfo/BookApointmentInfo";
 const store = configureStore();
 
 // Register Screens
@@ -48,7 +49,12 @@ Navigation.registerComponent("BSGD.SearchScreen",
   Provider
 );
 Navigation.registerComponent("BSGD.ListDoctorScreen", 
-  () => ListDoctor,
+  () => ListDoctorScreen,
+  store, 
+  Provider
+);
+Navigation.registerComponent("BSGD.BookApointmentInfoScreen", 
+  () => BookApointmentInfoScreen,
   store, 
   Provider
 );

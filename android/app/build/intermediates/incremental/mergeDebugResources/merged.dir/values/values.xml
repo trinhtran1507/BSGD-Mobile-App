@@ -1778,6 +1778,14 @@
     <item name="android:windowEnterAnimation">@anim/catalyst_slide_up</item>
     <item name="android:windowExitAnimation">@anim/catalyst_slide_down</item>
   </style>
+    <style name="Dialog_Full_Screen">
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@style/PickerAnim</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
     <style name="LightBox" parent="@android:style/Theme.Translucent.NoTitleBar">
         <item name="android:windowAnimationStyle">@style/ModalDefaultAnimations</item>
         <item name="android:statusBarColor" ns1:targetApi="lollipop">@android:color/transparent</item>
@@ -1801,6 +1809,10 @@
     </style>
     <style name="ModalSlideHorizontal">
         <item name="android:windowExitAnimation">@anim/slide_out_right</item>
+    </style>
+    <style name="PickerAnim">
+        <item name="android:windowEnterAnimation">@anim/picker_enter</item>
+        <item name="android:windowExitAnimation">@anim/picker_exit</item>
     </style>
     <style name="Platform.AppCompat" parent="android:Theme">
         <item name="android:windowNoTitle">true</item>
