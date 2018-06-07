@@ -1,0 +1,4 @@
+#Thu Jun 07 16:26:01 ICT 2018
+base.0=F\:\\Project\\VNPT_Project\\BSGD-Mobile-App\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,0 +1,38 @@
+{
+  "name": "BSGD",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "babel-preset-react-native-stage-0": "^1.0.1",
+    "jest": "^22.4.3",
+    "jest-react-native": "^18.0.0",
+    "native-base": "^2.4.5",
+    "react-native-calendars": "^1.19.3",
+    "react-native-elements": "^0.19.1",
+    "react-native-picker": "^4.3.7",
+    "react-native-picker-select": "^3.1.1",
+    "react-native-swiper": "^1.5.13",
+    "react-test-renderer": "16.3.1"
+  },
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "test": "jest"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "dependencies": {
+    "mkp-react-native-picker": "git+https://github.com/MonkeyKingPlus/react-native-picker.git",
+    "npm": "^6.1.0",
+    "react": "16.3.1",
+    "react-native": "~0.55.2",
+    "react-native-circle-button": "^1.0.9",
+    "react-native-navigation": "^1.1.462",
+    "react-native-vector-icons": "^4.6.0",
+    "react-native-wheel": "git+https://github.com/SudoPlz/react-native-wheel.git",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0"
+  }
+}
